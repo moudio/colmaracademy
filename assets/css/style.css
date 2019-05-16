@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Poppins', sans-serif;
 
 }
+
+
 
 #mobile-nav {
     display: none;
 }
+
+
 
 nav {
 display: flex;
@@ -20,6 +24,18 @@ margin: 0 24px;
 
 }
 
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-text {
+    margin: 0 10px;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -87,7 +103,7 @@ nav a {
     text-decoration: none;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:1000px){
 #desktop-nav {
     display:none;
 }
@@ -259,7 +275,7 @@ width: 100%;
         width: 100%;
     }
     .keep-practising {
-        margin: 0;
+        margin-top: 32px;
     }
     .content h3 {
         font-size: 2rem;
@@ -278,6 +294,7 @@ width: 100%;
     }
     .keep-practising .second-pic {
         display: block;
+        padding: 0;
     }
 
     picture {
@@ -314,7 +331,7 @@ width: 100%;
     text-align: center;
     color: rgb(58, 58, 58);
     font-weight: bold;
-    margin: 32px;
+    margin: 42px;
 }
 
 .courses {
@@ -352,6 +369,10 @@ width: 100%;
 .course p {
     font-size: 1.8rem;
     line-height: 1.8;
+}
+.course img {
+    width:100%;
+    text-align: center;
 }
 
 @media screen and (min-width:751px) and (max-width: 1200px){
@@ -528,12 +549,8 @@ width: 100%;
 
 }
 
-.pic-and-text:nth-child(2n-1) {
-    background: rgb(224, 224, 224);
 
-}
-
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:1140px) {
  .thesis {
      background-color: rgb(227, 234, 240);
      padding-bottom: 24px;
@@ -562,7 +579,7 @@ width: 100%;
 
 footer {
     padding: 16px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color:  rgb(102, 102, 102);
     display: flex;
     justify-content: space-between;
