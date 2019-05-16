@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+#mobile-nav {
+    display: none;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 64px;
+margin: 0 24px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0px 16px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(102, 102, 102); 
+}
+
+/* Banner */
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.banner-img {
+    width: 60%;
+    margin: 32px 24px;
+}
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0px auto;
+}
+.banner-text h1 {
+    color: rgb(58, 58, 58);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.banner-text h2 {
+    margin: 25px auto;
+    color: rgb(102, 102, 102);
+    font-size: 2rem;
+}
+#start-now {
+    background-color: rgb(58, 58, 58);
+    font-size: 1.7rem;
+    padding: 8px;
+    border: none;
+}
+
+#start-now a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:750px){
+#desktop-nav {
+    display:none;
+}
+
+#mobile-nav {
+    display:block;
+    height: 64px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-top: 5px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 900px){
+    #banner {
+        display: block;
+    }
+    
+    .banner-img {
+   width: 100%;
+   margin: 0;
+   }
+   
+   .banner-text {
+       width: 100%;
+       padding: 32px 16px;
+   }
+   .banner-text h1 {
+       font-size: 3rem;
+   }
+   .banner-text h2 {
+       margin: 32px auto 24px auto;
+       font-size: 1.8rem;
+       width: 70%;
+   }
+   
+   #start-now {
+       width: 50%;
+       margin: 0 auto;
+       font-size: 2rem;
+       background-color: rgb(131, 131, 131);
+       margin-bottom: 32px;
+       
+   }
+   
+   
+   }
+
+
+@media only screen and (max-width:1480px){
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .banner-text h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width:1300px){
+ 
+    .banner-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-text h2 {
+        font-size: 1.3rem;
+    }
+
+    #start-now {
+        font-size: 1.3rem;
+    }
+}
+
+/* Keep practising section */
+
+.keep-practising {
+    display: flex;
+    margin: 32px auto;
+    color:  rgb(102, 102, 102); 
+}
+.keep-practising  h2 {
+    font-size: 3.5rem;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+}
+
+.keep-practising .left {
+    width: 60%;
+    margin: 0 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.keep-practising .left img {
+    margin-bottom: 32px;
+}
+
+.keep-practising blockquote {
+    margin-top: 24px;
+    font-size: 1.7em;
+    text-align: left;
+    line-height: 1.6;
+}
+
+
+.keep-practising .author {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+.keep-practising .right {
+    width: 40%;
+}
+
+.keep-practising .second-pic {
+    display: flex;
+    padding: 16px;
+}
+picture {
+    width: 35%;
+    display: block;
+}
+
+
+.keep-practising .right img {
+width: 100%;
+}
+.keep-practising .orientation-text {
+    width: 65%;
+    text-align: left;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    line-height: 2.5;
+}
+
+.content h3 {
+    font-size: 2.5rem;
+}
+
+.content p,
+.content a {
+    font-size: 1.5rem
+}
+
+@media only screen and (min-width:460px) {
+    .content {
+        line-height: 1.9;
+    }
+  .keep-practising .orientation-text {
+        width: 100%;
+    }
+    .keep-practising {
+        margin: 0;
+    }
+    .content h3 {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media only screen and (max-width:900px){
+    .keep-practising .left {
+        display: none;
+    }
+
+    .keep-practising .right {
+        width: 100%;
+    }
+    .keep-practising .second-pic {
+        display: block;
+    }
+
+    picture {
+        width: 100%;
+    }
+}
+
+/* Start learning */
+
+.start-learning {
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 32px;
+}
+
+.start-learning h2 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    margin: 32px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 72px;
+}
+
+.course {
+    margin: 16px;
+    flex: 1 1 31%;
+    background: white;
+}
+
+.course h3 {
+    font-size: 2.4rem;
+    margin: 25px auto;
+    color: rgb(58, 58, 58);
+    text-align: center;
+
+}
+
+
+.course-text {
+    margin: auto 16px 24px 16px;
+    color:  rgb(102, 102, 102);
+
+}
+
+.course h4 {
+     font-size: 1.8rem;
+     margin:8px auto;
+}
+
+.course p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+@media only screen and (max-width:650px) {
+   .start-learning {
+       background-color: rgb(240, 240, 240);
+   }
+   .course {
+    margin: 16px;
+    flex: 1 1 100%;
+    background: white;
+}
+
+.course h3 {
+    font-size: 2rem;
+}
+
+
+.course h4 {
+    font-size: 1.6rem;
+}
+
+.course p {
+    font-size: 1.5rem;
+}
+
+   .courses {
+       margin: 0 16px;
+   }
+
+   
+}
+
+@media only screen and (max-width:550px) {
+    .start-learning {
+        background-color: rgb(243, 243, 243);
+    }
+    .courses {
+        margin: 16px 8px 32px 8px;
+    }
+
+    .course {
+        margin: 8px;
+    }
+.course-text {
+    margin: 0;
+}
+
+    .course p, 
+    .course h4 {
+        display:none;
+    }
+
+    .course h3 {
+        background-color: rgb(221, 221, 221);
+        color: rgb(82, 82, 82);
+        font-size: 2.4rem;
+        padding: 25px;
+        margin: 0px;
+        text-align: left;
+    }
+
+}
+
+
+/* Thesis exibit */
+
+.thesis {
+    background: rgb(243, 243, 243);
+}
+
+.thesis h2 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    margin: 32px;
+}
+
+.thesis-content {
+    display: flex;
+}
+.thesis-content .right{
+ width: 60%;
+ margin: auto 24px;
+}
+
+.thesis-content .video-description {
+    margin: 24px auto 32px auto;
+}
+
+.video-description h3 {
+    font-size: 2.5rem;
+    color:  rgb(46, 46, 46);
+
+}
+
+.video-description p {
+    font-size: 1.6rem;
+    margin-top: 8px;
+    line-height: 1.6;
+    color:  rgb(102, 102, 102);
+}
+
+
+.thesis-content .left {
+    width: 40%;
+}
+
+.pic-and-text {
+    display: flex;
+}
+
+.left-pic {
+    width: 35%;
+    margin: 16px;
+    
+}
+
+.left-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.left-text h3 {
+    font-size: 2.5rem;
+    color:  rgb(46, 46, 46);
+}
+
+.left-text p {
+    font-size: 1.9rem;
+    margin: 8px;
+    color:  rgb(102, 102, 102);
+
+}
+
+.pic-and-text:nth-child(2n-1) {
+    background: rgb(224, 224, 224);
+
+}
+
+@media only screen and (max-width:550px) {
+ .thesis {
+     background-color: rgb(227, 234, 240);
+     padding-bottom: 24px;
+ }   
+
+ .thesis h2 {
+     font-size: 2.3rem;
+ }
+ .thesis .left {
+     display: none;
+ }
+
+ .thesis .right {
+     width: 100%;
+     margin: 0;
+ }
+
+ .thesis .video-description {
+     display: none;
+ }
+}
+
+/* Footer */
+
+
+
+footer {
+    padding: 16px;
+    font-size: 1.5rem;
+    color:  rgb(102, 102, 102);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.terms-privacy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-privacy p {
+    margin: 10px;
+}
+
+@media only screen and (max-width:800px){
+    footer {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width:685px) {
+    .terms-privacy {
+        display: none;
+    }
+footer {
+    margin-bottom: 0px;
+}
+
+    footer p {
+        padding: 16px auto;
+    }
+
+}

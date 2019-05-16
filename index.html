@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Capstone Website</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+<!-- Desktop navigation -->
+        <nav role="navigation" id="desktop-nav">
+            <p class="logo">
+                <img src="./assets/images/ic-logo.svg" alt="logo">
+
+            </p>
+            <ul>
+                <li><a href="#">On campus</a></li>
+                <li> <a href="#">Online</a></li>
+                <li> <a href="#">For companies</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+        </nav>
+        <!-- mobile navigation -->
+        <nav role="navigation" id="mobile-nav">
+                <ul>
+                    <li class="logo"><img src="./assets/images/ic-logo.svg" alt="logo"> </li>
+
+                    <li><a href="#"><img src="./assets/images/ic-on-campus.svg" alt="chair"></a></li>
+                    <li> <a href="#"><img src="./assets/images/ic-online.svg" alt="computer"> </a></li>
+                    <li> <a href="#"><img src="./assets/images/ic-login.svg" alt="login"> </a></li>
+                </ul>
+            </nav>
+        <!-- banner -->
+        <div id="banner">
+            <div class="banner-img">
+                <img src="./assets/images/banner.jpg" alt="learning students">
+            </div>
+            <div class="banner-text">
+                <h1>Learn something new everyday</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+                <button id="start-now"><a href="#">Start here</a></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <main role="main">
+        <div class="keep-practising">
+            <div class="left">
+                <p><img src="./assets/images/information-main.jpg" alt="Man reading a book"></p>
+                <h2>It doesn't hurt to keep practising</h2>
+                <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta quis, quaerat
+                    deleniti rem dolores. Cupiditate accusantium eius ad amet iste impedit nemo totam corporis.
+                    Possimus eaque voluptate quas quae."
+                </blockquote>
+                <p class="author">Emmanuel, Sr Strategist at Hiring.com</p>
+
+            </div>
+            <div class="right">
+                <div class="second-pic">
+                    <picture>
+                        <source srcset="./assets/images/information-orientation.jpg"
+                        media="(min-width:800px)">
+
+                            <source srcset="./assets/images/information-orientation-mobile.jpg"
+                            media="(min-width:450px)">
+                            <img src="./assets/images/information-orientation.jpg" alt="walking people">
+
+                    </picture>
+                    <div class="orientation-text">
+                        <div class="content">
+                            <h3>Orientation Date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="second-pic">
+                    <picture>
+                            <source
+                            media="(min-width:800px)"
+                            srcset="./assets/images/information-campus.jpg">
+                        <source
+                        media="(min-width:450px)"
+                        srcset="./assets/images/information-campus-mobile.jpg">
+                        
+                   <img src="./assets/images/information-campus.jpg" alt="people in a room">
+
+                    </picture>
+                    <div class="orientation-text">
+                        <div class="content">
+                            <h3>Orientation Date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-pic">
+                    <picture>
+                        <source srcset="./assets/images/information-guest-lecture.jpg"
+                        media="(min-width:800px)">
+                        <source
+                        srcset="./assets/images/information-guest-lecture-mobile.jpg"
+                        media="(min-width:450px)">
+                        <img src="./assets/images/information-guest-lecture.jpg" alt="old man">
+
+                    </picture>
+                    <div class="orientation-text">
+                        <div class="content">
+                            <h3>Orientation Date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- start learning section -->
+        <div class="start-learning">
+
+            <h2>Start learning</h2>
+            <div class="courses">
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-software.jpg" alt="computers">
+                    </p>
+                    <div class="course-text">
+                        <h3>Software engineering</h3>
+                        <h4>COURSES</h4>
+                        <p>Wed Development, Mobile Development, iOT, APIs</p>
+
+                    </div>
+                </div>
+
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-computer-art.jpg" alt="hand holding a smartphone">
+                    </p>
+                    <div class="course-text">
+                        <h3>Computer art</h3>
+                        <h4>COURSES</h4>
+                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                    </div>
+                </div>
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-design.jpg" alt="photograph">
+                    </p>
+                    <div class="course-text">
+                        <h3>Design</h3>
+                        <h4>COURSES</h4>
+                        <p>User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </div>
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-data.jpg" alt="data on a laptop">
+                    </p>
+                    <div class="course-text">
+                        <h3>Data</h3>
+                        <h4>COURSES</h4>
+                        <p>Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </div>
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-business.jpg" alt="">
+                    </p>
+                    <div class="course-text">
+                        <h3>Business</h3>
+                        <h4>COURSES</h4>
+                        <p>Product Development, Business Development, Startup</p>
+                    </div>
+                </div>
+                <div class="course">
+                    <p>
+                        <img src="./assets/images/course-marketing.jpg" alt="">
+                    </p>
+                    <div class="course-text">
+                        <h3>Marketing</h3>
+                        <h4>COURSES</h4>
+                        <p>Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Thesis exibit section -->
+
+        <div class="thesis">
+        
+        <h2>Thesis exibits</h2>
+        <div class="thesis-content">
+            <div class="right">
+                <video width="100%" height="auto" controls>
+                    <source src="./assets/videos/thesis.mp4">
+                    Your browser couldn't render this video
+                </video>
+                <div class="video-description">
+                    <h3>Reimagine urban</h3>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus! Architecto est ducimus
+                        hic iure, necessitatibus nam deleniti unde laudantium saepe aspernatur exercitationem incidunt
+                        minus, suscipit, aut quidem! Corrupti, illum!"</p>
+                </div>
+            </div>
+
+            <div class="left">
+                <div class="pic-and-text">
+                <div class="left-pic">
+                    <img src="./assets/images/thesis-fisma.jpg" alt="designing on paper">
+                </div>
+                    <div class="left-text">
+                    <h3>Fisma: Design and Prototype</h3>
+                    <p>Design showcase of a new product</p>
+                </div>
+            </div>
+            <div class="pic-and-text">
+                <div class="left-pic">
+                    <img src="./assets/images/thesis-now-and-then.jpg" alt="designing on paper">
+                </div>
+                <div class="left-text">
+                    <h3>Now and Then</h3>
+                    <p>Research Study about New York</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+        <div class="terms-privacy">
+        <p><a href="#">Terms</a></p>
+        <p><a href="#">Privacy</a></p>
+    </div>
+    </footer>
+</body>
+
+</html>
