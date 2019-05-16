@@ -162,11 +162,11 @@ nav ul {
     }
 
     .banner-text h2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     #start-now {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -192,6 +192,7 @@ nav ul {
 
 .keep-practising .left img {
     margin-bottom: 32px;
+    width:100%;
 }
 
 .keep-practising blockquote {
@@ -219,6 +220,7 @@ nav ul {
 picture {
     width: 35%;
     display: block;
+    width:50%;
 }
 
 
@@ -250,6 +252,7 @@ width: 100%;
 
 @media only screen and (min-width:460px) {
     .content {
+        text-align: center;
         line-height: 1.9;
     }
   .keep-practising .orientation-text {
@@ -282,6 +285,23 @@ width: 100%;
     }
 }
 
+@media screen and (min-width:901px) and (max-width:1200px){
+    .keep-practising .left {
+        display: none;
+    }
+
+    .keep-practising .right {
+        width: 100%;
+    }
+    .keep-practising .second-pic {
+        display: flex;
+    }
+    picture {
+        width: 65%;
+    }
+
+}
+
 /* Start learning */
 
 .start-learning {
@@ -290,7 +310,7 @@ width: 100%;
 }
 
 .start-learning h2 {
-    font-size: 3.8rem;
+    font-size: 3rem;
     text-align: center;
     color: rgb(58, 58, 58);
     font-weight: bold;
@@ -334,7 +354,33 @@ width: 100%;
     line-height: 1.8;
 }
 
-@media only screen and (max-width:650px) {
+@media screen and (min-width:751px) and (max-width: 1200px){
+    .course h3 {
+        font-size: 1.9rem;
+    }
+    
+    
+    .course h4 {
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+    }
+    
+    .course p {
+        font-size: 1.3rem;
+    }
+    .course p img {
+        width: 100%;
+    }
+    
+       .courses {
+           margin: 0 16px;
+       }
+    
+
+}
+
+
+@media only screen and (max-width:750px) {
    .start-learning {
        background-color: rgb(240, 240, 240);
    }
@@ -345,16 +391,19 @@ width: 100%;
 }
 
 .course h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 
 .course h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .course p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+.course p img {
+    width: 100%;
 }
 
    .courses {
@@ -387,7 +436,7 @@ width: 100%;
     .course h3 {
         background-color: rgb(221, 221, 221);
         color: rgb(82, 82, 82);
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         padding: 25px;
         margin: 0px;
         text-align: left;
@@ -395,6 +444,11 @@ width: 100%;
 
 }
 
+@media only screen and (max-width:1200px) {
+    .courses {
+        margin: 0 8px;
+    }
+}
 
 /* Thesis exibit */
 
@@ -423,13 +477,13 @@ width: 100%;
 }
 
 .video-description h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color:  rgb(46, 46, 46);
 
 }
 
 .video-description p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-top: 8px;
     line-height: 1.6;
     color:  rgb(102, 102, 102);
@@ -450,6 +504,10 @@ width: 100%;
     
 }
 
+.left-pic img {
+    width: 100%;
+}
+
 .left-text {
     width: 65%;
     display: flex;
@@ -459,12 +517,12 @@ width: 100%;
 }
 
 .left-text h3 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color:  rgb(46, 46, 46);
 }
 
 .left-text p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin: 8px;
     color:  rgb(102, 102, 102);
 
@@ -475,7 +533,7 @@ width: 100%;
 
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:850px) {
  .thesis {
      background-color: rgb(227, 234, 240);
      padding-bottom: 24px;
@@ -508,8 +566,10 @@ footer {
     color:  rgb(102, 102, 102);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: 1px solid rgb(192, 192, 192);
 }
+
 
 .terms-privacy {
     display: flex;
@@ -520,7 +580,12 @@ footer {
     margin: 10px;
 }
 
-@media only screen and (max-width:800px){
+.terms-privacy p a {
+    text-decoration: none;
+    color:rgb(102, 102, 102);
+}
+
+@media only screen and (max-width:900px){
     footer {
         font-size: 1.2rem;
     }
