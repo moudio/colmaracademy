@@ -13,7 +13,7 @@ Mouhamadou Diouf ( <a href="https://github.com/MouhaDiouf"> @mouhad </a>)
 
 
 ## Live Version
-Live version can be found here: <a href="https://mouhadiouf.github.io/excursions/" target="_blank"> Colmaracademy Website </a>
+Live version can be found here: <a href="https://mouhadiouf.github.io/colmaracademy/" target="_blank"> Colmaracademy Website </a>
 
 ## Contributing
 
