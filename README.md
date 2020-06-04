@@ -5,7 +5,7 @@ A replica of a fictional website called Colmaracademy. It's a capstone project o
 - HTML
 - CSS
 
-![screenshot](.assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 ## Developed by
 
